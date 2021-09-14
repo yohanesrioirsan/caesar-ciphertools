@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tugas Kelompok Keamanan Komputer</title>
+
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssnya.css">
+    <!-- CSS only -->
+</head>
+<body>
+<center>
+    <div class="container">
+        <h2>CAESAR CIPHER ENCRYPT-DECRYPT TOOLS</h1>
+            <div class="output">
+                <label for="input">INPUT</label><br>
+                <textarea id="input" cols="30" rows="5" placeholder="Contoh Inputan : hello world!.."></textarea>
+                <br>
+                <label for="output">OUTPUT</label><br>
+                <textarea id="output" cols="30" rows="5" placeholder="Output akan keluar disini"></textarea>
+            </div>
+        <div class="input">
+            <br><br>
+            <h5>*masukan inputan berupa huruf</h5>
+        </div>
+        <div class="key">
+            <label for="key">JUMLAH KEY</label>
+            <br>
+            <input type="number" id="key" placeholder="contoh : 3">
+            <br>
+            <br>
+            <h5>*masukan jumlah key</h5>
+            <br>
+        </div>
+        <div class="button">
+            <button id="enkripsi">Encrypt</button>
+            <button id="dekripsi">Decrypt</button>
+        </div>
+    </div>
+</center>
+</body>
+<script src="script.js"></script>
+</html>
